@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f84d575e15c40443894df03f985f2eed, type: 3}
+  m_Name: SwordShield
+  m_EditorClassIdentifier: 
+  shieldName:
+    content: Shield Name
+    postProcess: 0
+    translationID: 0
+  shieldDescription:
+    content: Shield Description
+    postProcess: 0
+    translationID: 0
+  prefab: {fileID: 0}
+  attachment: 17
+  positionOffset: {x: 0, y: 0, z: 0}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  perfectBlockClip: {fileID: 11400000, guid: d63237cf1eceb4783b1ede61886b4e6f, type: 2}
+  blockingHitReaction:
+  - {fileID: 11400000, guid: bfc7689a2bf5241a28a55e48a53afd38, type: 2}
+  - {fileID: 11400000, guid: c04bc7549e599453aa6a12339d12439b, type: 2}
+  - {fileID: 11400000, guid: e46d9a2fe7c9b4bdc90ee663de1070b8, type: 2}
+  groundPerfectBlockReaction: {fileID: 11400000, guid: 3deaaf5926fd54b608596e9d5526322f,
+    type: 2}
+  airbornPerfectBlockReaction: {fileID: 11400000, guid: 3deaaf5926fd54b608596e9d5526322f,
+    type: 2}
+  defendState: {fileID: 11400000, guid: f04fc14a8f3c3400f9a7ae16d847eeb8, type: 2}
+  defendMask: {fileID: 31900000, guid: f98c7cdcf31c34677a3ce87d96135a28, type: 2}
+  lowerBodyRotation: 0
+  defenseAngle:
+    optionIndex: 0
+    value: 120
+    global:
+      allowTypesMask: 4
+      name: 
+    local:
+      allowTypesMask: 4
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  defenseRecoveryRate:
+    optionIndex: 0
+    value: 0.5
+    global:
+      allowTypesMask: 4
+      name: 
+    local:
+      allowTypesMask: 4
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  maxDefense:
+    optionIndex: 0
+    value: 10
+    global:
+      allowTypesMask: 4
+      name: 
+    local:
+      allowTypesMask: 4
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  delayDefense:
+    optionIndex: 0
+    value: 1
+    global:
+      allowTypesMask: 4
+      name: 
+    local:
+      allowTypesMask: 4
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  perfectBlockWindow: 0.2
+  audioBlock: {fileID: 0}
+  audioPerfectBlock: {fileID: 0}
+  prefabImpactBlock: {fileID: 4329036519906242892, guid: cd4c04229338348b2b653790e4ca1042,
+    type: 3}
+  prefabImpactPerfectBlock: {fileID: 4329036519906242892, guid: d148929d442b347c0bf239d9015c7d2c,
+    type: 3}

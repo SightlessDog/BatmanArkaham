@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4cbd861b156b4342bb925cd2f07da25, type: 3}
+  m_Name: com.gamecreator.module.behavior
+  m_EditorClassIdentifier: 
+  module:
+    moduleID: com.gamecreator.module.behavior
+    version:
+      major: 1
+      minor: 0
+      patch: 2
+    displayName: Behavior
+    description: Easily define how objects behave using Behavior Trees and the perception
+      system
+    category: Module
+    dependencies: []
+    tags:
+    - module
+    - behavior
+    authorName: Marti-Joan Nogue Coll
+    authorMail: marti@catsoft-studios.com
+    authorSite: https://gamecreator.io
+    includesData: 0
+    codePaths:
+    - Assets/Plugins/GameCreator/Behavior/
+    dataPaths: []
+  adminLogin: 1
+  adminOpen: 1

@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3929c93f8d6424c87244a3a5d99e94, type: 3}
+  m_Name: StatsAsset
+  m_EditorClassIdentifier: 
+  stats:
+  - {fileID: 114307909447248710}
+  - {fileID: 114866688907080766}
+  - {fileID: 114842526121992400}
+  - {fileID: 114175997067868362}
+  - {fileID: 114415574918214224}
+  - {fileID: 114132451361532224}
+  - {fileID: 114851839239555622}
+  - {fileID: 114936355189639016}
+--- !u!114 &114132451361532224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: pgh4l5c4
+  m_EditorClassIdentifier: 
+  uniqueID: 1a69c9bc3d1149d89ae4d112ad1494e6
+  stat:
+    uniqueName: defense
+    shortName: DEF
+    title:
+      content: Defense
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Amount of damage that can be resisted
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 10
+    formula: {fileID: 0}
+  isHidden: 0
+--- !u!114 &114175997067868362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: s1564f8v
+  m_EditorClassIdentifier: 
+  uniqueID: 683752767cda4840ac94be10d7b2f2b7
+  stat:
+    uniqueName: vitality
+    shortName: VIT
+    title:
+      content: Vitality
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Maximum amount of Health
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 21300000, guid: b8c97d211424948b9a5d6e2cf6f9a641, type: 3}
+    color: {r: 0.8666667, g: 0.20392156, b: 0.20392156, a: 1}
+    baseValue: 100
+    formula: {fileID: 11400000, guid: de07213b159974cdaa6112937b8c1f00, type: 2}
+  isHidden: 0
+--- !u!114 &114307909447248710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: 0laj7qyh
+  m_EditorClassIdentifier: 
+  uniqueID: e213d04e786449c88ea4826429e900ba
+  stat:
+    uniqueName: exp
+    shortName: EXP
+    title:
+      content: Experience
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Amount of experience gathered
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.86666673, g: 0.627451, b: 0.20392159, a: 1}
+    baseValue: 0
+    formula: {fileID: 11400000, guid: e56e5e077b7f146958ae147b18e9e570, type: 2}
+  isHidden: 0
+--- !u!114 &114415574918214224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: 6h5kvcho
+  m_EditorClassIdentifier: 
+  uniqueID: 9d9a9bdd05f74dfea00b22b4ac9f2a30
+  stat:
+    uniqueName: wisdom
+    shortName: WIS
+    title:
+      content: Wisdom
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Maximum amount of Mana
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.22352943, g: 0.67058825, b: 0.882353, a: 1}
+    baseValue: 30
+    formula: {fileID: 11400000, guid: da59f1dfea6c24315ba0fde12e3980a5, type: 2}
+  isHidden: 0
+--- !u!114 &114842526121992400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: jzmx6jox
+  m_EditorClassIdentifier: 
+  uniqueID: 00999b45fbad4a74909e036b92f1b89a
+  stat:
+    uniqueName: next-level
+    shortName: NL
+    title:
+      content: Progress
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Percentage till the next level
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.8666667, g: 0.627451, b: 0.20392157, a: 1}
+    baseValue: 0
+    formula: {fileID: 11400000, guid: c39abeefbdc6348749bc63607f166632, type: 2}
+  isHidden: 0
+--- !u!114 &114851839239555622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: 6dbamxck
+  m_EditorClassIdentifier: 
+  uniqueID: 179f91b97be84f8489c3f7f02f45e477
+  stat:
+    uniqueName: attack
+    shortName: ATK
+    title:
+      content: Attack
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Amount of damage dealt
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 30
+    formula: {fileID: 0}
+  isHidden: 0
+--- !u!114 &114866688907080766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: xqwr62v2
+  m_EditorClassIdentifier: 
+  uniqueID: 877ee1022f3447ee8102227588fc0825
+  stat:
+    uniqueName: level
+    shortName: Lv.
+    title:
+      content: Level
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Current Level
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.8666667, g: 0.627451, b: 0.20392157, a: 1}
+    baseValue: 0
+    formula: {fileID: 11400000, guid: 10f6fd2bc225f47b5a7162abeeaf519c, type: 2}
+  isHidden: 0
+--- !u!114 &114936355189639016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: nm4vq1b0
+  m_EditorClassIdentifier: 
+  uniqueID: 9108e0015f7542759e4224d378b35a20
+  stat:
+    uniqueName: dexterity
+    shortName: DEX
+    title:
+      content: Dexterity
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Ability to repair things
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 0
+    formula: {fileID: 11400000, guid: bb4d6d1cb60e84e2698ab67823122506, type: 2}
+  isHidden: 0

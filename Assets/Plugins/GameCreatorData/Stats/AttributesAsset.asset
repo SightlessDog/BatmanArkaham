@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ac1e52345c5a4a8489aff2c0a41bacb, type: 3}
+  m_Name: AttributesAsset
+  m_EditorClassIdentifier: 
+  attributes:
+  - {fileID: 114291937499452772}
+  - {fileID: 114445033182228404}
+--- !u!114 &114291937499452772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543ed1946d26146d59a35072bef19b50, type: 3}
+  m_Name: 950k3c2e
+  m_EditorClassIdentifier: 
+  uniqueID: e27289e8cd864e5bbea47c1d20e7777d
+  attribute:
+    uniqueName: health
+    shortName: HP
+    title:
+      content: Health
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Amount of health
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 21300000, guid: b8c97d211424948b9a5d6e2cf6f9a641, type: 3}
+    color: {r: 0.86764705, g: 0.62970406, b: 0.20415224, a: 1}
+    minValue: 0
+    stat: {fileID: 114175997067868362, guid: 0431ef4462ebb4e059a79b2feeb54f7c, type: 2}
+    percent: 1
+--- !u!114 &114445033182228404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543ed1946d26146d59a35072bef19b50, type: 3}
+  m_Name: bvgfpmsa
+  m_EditorClassIdentifier: 
+  uniqueID: bb814b5afe464572a0dfd06fc82cb531
+  attribute:
+    uniqueName: mana
+    shortName: MP
+    title:
+      content: 
+      postProcess: 0
+      translationID: 0
+    description:
+      content: 
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.22707613, g: 0.67397505, b: 0.88235295, a: 1}
+    minValue: 0
+    stat: {fileID: 114415574918214224, guid: 0431ef4462ebb4e059a79b2feeb54f7c, type: 2}
+    percent: 0.25

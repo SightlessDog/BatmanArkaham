@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174e3c307f7474e6fa3b8acd263a757e, type: 3}
+  m_Name: Brawler
+  m_EditorClassIdentifier: 
+  weaponName:
+    content: Brawler
+    postProcess: 0
+    translationID: 0
+  weaponDescription:
+    content: Weapon Description
+    postProcess: 0
+    translationID: 0
+  defaultShield: {fileID: 11400000, guid: f2cd3a77245a06c4f95e2a1e0bc79e82, type: 2}
+  characterState: {fileID: 11400000, guid: e17816aed38b6924b8ccf8d014513e20, type: 2}
+  characterMask: {fileID: 0}
+  prefabs:
+  - {fileID: 6127778902043319522, guid: 5dfd9ad4c9247c447b980f1569fd19c0, type: 3}
+  - {fileID: 6127778902043319522, guid: 689072ed1aa9ad34eb0b549083e43edd, type: 3}
+  - {fileID: 6127778902043319522, guid: 9be1609b0938e2549b5224109836358f, type: 3}
+  - {fileID: 6127778902043319522, guid: 63be3fb4bf1eb814399332f0201c2baf, type: 3}
+  audioSheathe: {fileID: 0}
+  audioDraw: {fileID: 0}
+  audioImpactNormal: {fileID: 8300000, guid: 00f967e54adc343b1a07b49f4b7514c7, type: 3}
+  audioImpactKnockback: {fileID: 8300000, guid: 00f967e54adc343b1a07b49f4b7514c7, type: 3}
+  groundHitReactionsFrontUpper:
+  - {fileID: 11400000, guid: e8ce0c1f82304834d9efe7505430c803, type: 2}
+  groundHitReactionsFrontMiddle:
+  - {fileID: 11400000, guid: 072f2e6415b6fa54ba4111c0332463da, type: 2}
+  groundHitReactionsFrontLower:
+  - {fileID: 11400000, guid: e8ce0c1f82304834d9efe7505430c803, type: 2}
+  groundHitReactionsBackUpper:
+  - {fileID: 11400000, guid: e8ce0c1f82304834d9efe7505430c803, type: 2}
+  groundHitReactionsBackMiddle:
+  - {fileID: 11400000, guid: 072f2e6415b6fa54ba4111c0332463da, type: 2}
+  groundHitReactionsBackLower:
+  - {fileID: 11400000, guid: e8ce0c1f82304834d9efe7505430c803, type: 2}
+  airborneHitReactionsFrontUpper:
+  - {fileID: 11400000, guid: b0aa8077094ccfe40aa542035a2407a7, type: 2}
+  airborneHitReactionsFrontMiddle:
+  - {fileID: 11400000, guid: b0aa8077094ccfe40aa542035a2407a7, type: 2}
+  airborneHitReactionsFrontLower:
+  - {fileID: 11400000, guid: b0aa8077094ccfe40aa542035a2407a7, type: 2}
+  airborneHitReactionsBackUpper:
+  - {fileID: 11400000, guid: b0aa8077094ccfe40aa542035a2407a7, type: 2}
+  airborneHitReactionsBackMiddle:
+  - {fileID: 11400000, guid: b0aa8077094ccfe40aa542035a2407a7, type: 2}
+  airborneHitReactionsBackLower:
+  - {fileID: 11400000, guid: b0aa8077094ccfe40aa542035a2407a7, type: 2}
+  knockbackReaction:
+  - {fileID: 11400000, guid: 53ed227dfa799da48acc9cb39c2e71cc, type: 2}
+  combos:
+  - combo: 00000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 61a93ba7baf780043ae9042177d0c7b2, type: 2}
+    isEnabled: 1
+    shouldRepeat: 0
+  - combo: 0000000000000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: f7e669032354fe442a6d7cc1db6a4595, type: 2}
+    isEnabled: 1
+    shouldRepeat: 0
+  - combo: 000000000000000000000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: a058c5d22b95dd94fa817481c71f385d, type: 2}
+    isEnabled: 1
+    shouldRepeat: 0
+  - combo: 01000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 26cba7875b74b504f8a17e73386be0da, type: 2}
+    isEnabled: 1
+    shouldRepeat: 0
+  - combo: 0100000001000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 8b4b693d8dffd9542abb40be843dc817, type: 2}
+    isEnabled: 1
+    shouldRepeat: 0
+  - combo: 010000000100000001000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 4044bf10e44b7864ba3b320a012aa05d, type: 2}
+    isEnabled: 1
+    shouldRepeat: 0
+  - combo: 08000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: fd26243238c3e3f4cb774456f1b6d41c, type: 2}
+    isEnabled: 1
+    shouldRepeat: 0
+  prefabImpactNormal: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8, type: 3}
+  prefabImpactKnockback: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8, type: 3}

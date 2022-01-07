@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 213036c5fc0bd40cca8cef17b403ca70, type: 3}
+  m_Name: StatusEffectAsset
+  m_EditorClassIdentifier: 
+  statusEffects:
+  - {fileID: 114031110474872536}
+--- !u!114 &114031110474872536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c27cf7643fd6248ed9a5cd8b3322d17d, type: 3}
+  m_Name: y63zugfv
+  m_EditorClassIdentifier: 
+  uniqueID: 9932add030ac433d8b92975cd629d446
+  statusEffect:
+    uniqueName: posion
+    shortName: POI
+    title:
+      content: Posion
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Deals damage over time
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 21300000, guid: dbfff201f113d4595885a21d580e9aa6, type: 3}
+    color: {r: 0.4077676, g: 0.7352941, b: 0.34602073, a: 1}
+    type: 1
+    hasDuration: 1
+    duration: 5
+    maxStack: 1
+    actionsOnStart: {fileID: 114166802174419512, guid: 9a66ca10471cc43c7959c636e3a61b15,
+      type: 3}
+    actionsWhileActive: {fileID: 114750674361366894, guid: 18af40d056dc64dee82e096bc8e16c7c,
+      type: 3}
+    actionsOnEnd: {fileID: 114204956338132484, guid: ab46ab5f4328d49b490d2a4771bdd0e0,
+      type: 3}
