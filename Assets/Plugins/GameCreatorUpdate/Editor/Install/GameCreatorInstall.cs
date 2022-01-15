@@ -34,7 +34,7 @@
 
         public const string REQUIREMENTS_TITLE = "Game Creator can not be installed";
 
-        public const string MAGIC_CODE = "hYCMor77Ghviv7gAMgsw";
+        public const string MAGIC_CODE = "hYCMor66Ghviv7gAMgsw";
 
         // INITIALIZE METHODS: --------------------------------------------------------------------
 
@@ -128,21 +128,21 @@
         private const string ERR_OLD = "Your Unity version is older than 2019.4, which is no longer officially supported.";
         private const string ERR_ALPHA = "Your Unity version is an Alpha, Beta or Tech-Stream and might be unstable.";
 
-        private const string ERR_LTS = "Please, consider using the latest Unity 2019.4 LTS version";
+        private const string ERR_LTS = "Please, consider using the latest Unity 2020.3 LTS version";
 
         public static Requirement MeetsUnityRequirements()
         {
             bool success = true;
             string message = string.Empty;
 
-            #if UNITY_2021_1_OR_NEWER
-            success = false;
-            message = string.Format("{0} {1}", ERR_ALPHA, ERR_LTS);
-            #elif UNITY_2019_4_OR_NEWER
+            // #if UNITY_2023_1_OR_NEWER
+            // success = true;
+            // message = string.Format("{0} {1}", ERR_ALPHA, ERR_LTS);
+            #if UNITY_2019_4_OR_NEWER
             success = true;
             message = string.Empty;
             #else
-            success = false;
+            success = true;
             message = string.Format("{0} {1}", ERR_OLD, ERR_LTS);
             #endif
 

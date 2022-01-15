@@ -34,52 +34,6 @@ MonoBehaviour:
       - Assets/Plugins/GameCreator/Examples/
       dataPaths: []
   - module:
-      moduleID: com.gamecreator.examples.melee
-      version:
-        major: 0
-        minor: 1
-        patch: 5
-      displayName: Melee Examples
-      description: Example scenes that show how to use the Melee module
-      category: Examples
-      dependencies:
-      - moduleID: com.gamecreator.module.melee
-        version:
-          major: 0
-          minor: 1
-          patch: 5
-      tags:
-      - examples
-      - melee
-      authorName: Marti-Joan Nogue Coll
-      authorMail: marti@catsoft-studios.com
-      authorSite: https://gamecreator.io
-      includesData: 0
-      codePaths:
-      - Assets/Plugins/GameCreator/MeleeExamples/
-      dataPaths:
-      - Assets/Plugins/GameCreatorData/Melee/
-  - module:
-      moduleID: com.gamecreator.module.melee
-      version:
-        major: 0
-        minor: 1
-        patch: 5
-      displayName: Melee Module
-      description: Create a complete melee combat system using visual tools
-      category: Modules
-      dependencies: []
-      tags:
-      - examples
-      - melee
-      authorName: Marti-Joan Nogue Coll
-      authorMail: marti@catsoft-studios.com
-      authorSite: https://gamecreator.io
-      includesData: 0
-      codePaths:
-      - Assets/Plugins/GameCreator/Melee/
-      dataPaths: []
-  - module:
       moduleID: com.gamecreator.examples.behavior
       version:
         major: 1
@@ -106,26 +60,31 @@ MonoBehaviour:
       dataPaths:
       - Assets/Plugins/GameCreatorData/Behavior/
   - module:
-      moduleID: com.gamecreator.module.behavior
+      moduleID: com.gamecreator.examples.melee
       version:
-        major: 1
-        minor: 0
-        patch: 2
-      displayName: Behavior
-      description: Easily define how objects behave using Behavior Trees and the
-        perception system
-      category: Module
-      dependencies: []
+        major: 0
+        minor: 1
+        patch: 5
+      displayName: Melee Examples
+      description: Example scenes that show how to use the Melee module
+      category: Examples
+      dependencies:
+      - moduleID: com.gamecreator.module.melee
+        version:
+          major: 0
+          minor: 1
+          patch: 5
       tags:
-      - module
-      - behavior
+      - examples
+      - melee
       authorName: Marti-Joan Nogue Coll
       authorMail: marti@catsoft-studios.com
       authorSite: https://gamecreator.io
       includesData: 0
       codePaths:
-      - Assets/Plugins/GameCreator/Behavior/
-      dataPaths: []
+      - Assets/Plugins/GameCreator/MeleeExamples/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/Melee/
   - module:
       moduleID: com.gamecreator.examples.stats
       version:
@@ -152,6 +111,47 @@ MonoBehaviour:
       - Assets/Plugins/GameCreator/StatsExamples/
       dataPaths:
       - Assets/Plugins/GameCreatorData/Stats/
+  - module:
+      moduleID: com.gamecreator.module.behavior
+      version:
+        major: 1
+        minor: 0
+        patch: 2
+      displayName: Behavior
+      description: Easily define how objects behave using Behavior Trees and the
+        perception system
+      category: Module
+      dependencies: []
+      tags:
+      - module
+      - behavior
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/Behavior/
+      dataPaths: []
+  - module:
+      moduleID: com.gamecreator.module.melee
+      version:
+        major: 0
+        minor: 1
+        patch: 5
+      displayName: Melee Module
+      description: Create a complete melee combat system using visual tools
+      category: Modules
+      dependencies: []
+      tags:
+      - examples
+      - melee
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/Melee/
+      dataPaths: []
   - module:
       moduleID: com.gamecreator.module.stats
       version:

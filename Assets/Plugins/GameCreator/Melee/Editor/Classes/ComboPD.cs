@@ -26,7 +26,6 @@
             SerializedProperty spCondition = property.FindPropertyRelative("condition");
             SerializedProperty spMeleeClip = property.FindPropertyRelative("meleeClip");
             SerializedProperty spIsEnabled = property.FindPropertyRelative("isEnabled");
-            SerializedProperty spshouldRepeat = property.FindPropertyRelative("shouldRepeat");
 
             float comboLabelWidth = position.width - (
                 (spCombo.arraySize * COMBO_KEY_WIDTH) +
@@ -140,17 +139,9 @@
                 rectMeleeClip.width,
                 EditorGUIUtility.singleLineHeight
             );
-            Rect rectShouldRepeat = new Rect(
-                rectIsEnabled.x,
-                rectIsEnabled.y + rectIsEnabled.height + EditorGUIUtility.standardVerticalSpacing,
-                rectIsEnabled.width,
-                EditorGUIUtility.singleLineHeight
-            );
 
             EditorGUI.PropertyField(rectMeleeClip, spMeleeClip);
             EditorGUI.PropertyField(rectIsEnabled, spIsEnabled);
-            EditorGUI.PropertyField(rectShouldRepeat, spshouldRepeat);
-
 
             EditorGUI.indentLevel -= 1;
         }
@@ -168,7 +159,6 @@
         public static float GetHeight()
         {
             return (
-                EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing +
                 EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing +
                 EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing +
                 EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing +

@@ -6,7 +6,6 @@
     using GameCreator.Characters;
     using System;
     using System.IO;
-    using System.Linq;
 
     [CustomEditor(typeof(MeleeClip))]
 	public class MeleeClipEditor : IMeleeEditor
@@ -74,8 +73,6 @@
         private SerializedProperty spPosture;
 
         private SerializedProperty spAttackPhase;
-        private SerializedProperty spAffectedBones;
-
 
         private int drawDragType;
 
@@ -96,7 +93,6 @@
         private void OnEnable()
         {
             this.instance = this.target as MeleeClip;
-            this.spAffectedBones = this.serializedObject.FindProperty("affectedBones");
 
             this.sectionAnimation = new Section("Animation", this.LoadIcon("Animation"), this.Repaint);
             this.sectionMotion = new Section("Motion", this.LoadIcon("Animation"), this.Repaint);
@@ -196,7 +192,6 @@
 
         public override void OnInspectorGUI()
         {
-
             if (this.initStyles)
             {
                 this.InitializeStyles();
@@ -204,26 +199,6 @@
             }
 
             this.serializedObject.Update();
-            /*
-            var values = (BladeComponent.WeaponBone[])Enum.GetValues(typeof(BladeComponent.WeaponBone));
-            foreach (var value in values)
-            {
-                var contains = instance.affectedBones.Contains(value);
-                var result = EditorGUILayout.Toggle(value.ToString(), contains);
-                if (result && !contains)
-                {
-                    instance.affectedBones.Add(value);
-                }
-                if (!result && contains)
-                {
-                    instance.affectedBones.Remove(value);
-                }
-            }
-            */
-            //serializedObject.Update();
-            EditorGUILayout.PropertyField(spAffectedBones);
-            
-            EditorGUILayout.Space();
 
             EditorGUILayout.BeginHorizontal();
             GUILayout.FlexibleSpace();

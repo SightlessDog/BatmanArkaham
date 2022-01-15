@@ -267,6 +267,9 @@
 
         private void ToRagdoll()
         {
+            if (this.character.IsRagdoll()) return;
+            this.charAnimator.StopGesture();
+            
             this.rootChunk.Snapshot();
             this.character.characterLocomotion.isBusy = true;
 

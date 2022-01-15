@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   conditions:
-  - {fileID: 44280132}
+  - {fileID: 0}
   - {fileID: 44280131}
   - {fileID: 44280130}
 --- !u!114 &44280130
@@ -429,27 +429,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17bdfdf3599454ab781aeabdb6286fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  attacking: 1
 --- !u!114 &44280133
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -500,7 +479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   conditions:
-  - {fileID: 44280136}
+  - {fileID: 0}
 --- !u!114 &44280136
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -513,27 +492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17bdfdf3599454ab781aeabdb6286fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  attacking: 0
 --- !u!1 &57771177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,7 +983,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd5e69e8b7f78b84383c2f837042f21d, type: 2}
+  - {fileID: 2100000, guid: f66144724865cf248a25f8e59ed87367, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1117,27 +1075,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bf0f8c8fb12482d9662e19de74cbbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  key: 0
 --- !u!114 &183351092
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1151,7 +1088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 183351091}
+  - {fileID: 0}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &183351093
@@ -1222,27 +1159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e9cbe49ce69d4c39800705e0941d8c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  blocking: 1
 --- !u!4 &183351097
 Transform:
   m_ObjectHideFlags: 0
@@ -1272,7 +1188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 183351096}
+  - {fileID: 0}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &183351099
@@ -1343,27 +1259,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e9cbe49ce69d4c39800705e0941d8c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  blocking: 0
 --- !u!114 &183351103
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1377,7 +1272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 183351102}
+  - {fileID: 0}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &183351104
@@ -1451,27 +1346,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bf0f8c8fb12482d9662e19de74cbbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  key: 1
 --- !u!114 &183351108
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1485,7 +1359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 183351107}
+  - {fileID: 0}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &183351109
@@ -1812,7 +1686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 299559539}
+  - {fileID: 0}
   - {fileID: 299559538}
   executingIndex: -1
   isExecuting: 0
@@ -1842,46 +1716,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a93f1f947e69482dac99c3488751423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  target: 0
-  value:
-    target: 6
-    gameObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: CounterTarget
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
 --- !u!4 &299559540
 Transform:
   m_ObjectHideFlags: 0
@@ -2262,7 +2096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 411335424}
-  - {fileID: 411335423}
+  - {fileID: 0}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &411335423
@@ -2277,46 +2111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a93f1f947e69482dac99c3488751423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  target: 0
-  value:
-    target: 6
-    gameObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: Target
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
 --- !u!114 &411335424
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2853,7 +2647,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd5e69e8b7f78b84383c2f837042f21d, type: 2}
+  - {fileID: 2100000, guid: f66144724865cf248a25f8e59ed87367, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5199,7 +4993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   conditions:
-  - {fileID: 1194111155}
+  - {fileID: 0}
   - {fileID: 1194111154}
   - {fileID: 1194111153}
 --- !u!114 &1194111153
@@ -5304,27 +5098,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17bdfdf3599454ab781aeabdb6286fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  attacking: 1
 --- !u!114 &1194111156
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5375,7 +5148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   conditions:
-  - {fileID: 1194111159}
+  - {fileID: 0}
 --- !u!114 &1194111159
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5388,27 +5161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17bdfdf3599454ab781aeabdb6286fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  attacking: 0
 --- !u!114 &1194111160
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5421,27 +5173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17bdfdf3599454ab781aeabdb6286fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  attacking: 0
 --- !u!114 &1194111161
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5455,7 +5186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   conditions:
-  - {fileID: 1194111160}
+  - {fileID: 0}
 --- !u!1 &1203389735
 GameObject:
   m_ObjectHideFlags: 0
@@ -6519,59 +6250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a5fa3ce8148f4c68a1375bd243117a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sheathedHitReactions: {fileID: 0}
-  currentWeapon: {fileID: 0}
-  currentShield: {fileID: 0}
-  previousWeapon: {fileID: 0}
-  previousShield: {fileID: 0}
-  delayPoise:
-    optionIndex: 0
-    value: 1
-    global:
-      allowTypesMask: 4
-      name: 
-    local:
-      allowTypesMask: 4
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-  maxPoise:
-    optionIndex: 0
-    value: 5
-    global:
-      allowTypesMask: 4
-      name: 
-    local:
-      allowTypesMask: 4
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-  poiseRecoveryRate:
-    optionIndex: 0
-    value: 1
-    global:
-      allowTypesMask: 4
-      name: 
-    local:
-      allowTypesMask: 4
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
 --- !u!143 &1397646455
 CharacterController:
   m_ObjectHideFlags: 0
@@ -6615,8 +6293,8 @@ MonoBehaviour:
   autoInitializeRagdoll: 1
   ragdollMass: 80
   stableTimeout: 0.5
-  standFaceDown: {fileID: 74060096437904604, guid: e3a2eebe549364235b59f9dfdc456c61, type: 2}
-  standFaceUp: {fileID: 74323205600563714, guid: e3a2eebe549364235b59f9dfdc456c61, type: 2}
+  standFaceDown: {fileID: 0}
+  standFaceUp: {fileID: 0}
   timeScaleCoefficient: 1
 --- !u!114 &1397646457
 MonoBehaviour:
@@ -6888,49 +6566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c66432af9c27436c8adc67ae3963b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gid: 1b04eb7a-f91d-4af1-ad79-67372a6a9fe1
-  saveStats: 1
-  statsOverrides:
-  - statUniqueID: e213d04e786449c88ea4826429e900ba
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 877ee1022f3447ee8102227588fc0825
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 00999b45fbad4a74909e036b92f1b89a
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 683752767cda4840ac94be10d7b2f2b7
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 9d9a9bdd05f74dfea00b22b4ac9f2a30
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 1a69c9bc3d1149d89ae4d112ad1494e6
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 179f91b97be84f8489c3f7f02f45e477
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 9108e0015f7542759e4224d378b35a20
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
 --- !u!114 &1397646465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6961,12 +6596,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc12b44da9dc4e0899aaeb269539d78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gid: 5f534f39-4529-4962-9da9-f54607b03d23
-  references: []
-  behaviorGraph: {fileID: 11400000, guid: e273e59d18340cc47b6e5b4b05d95a6b, type: 2}
-  update: 0
-  frequency: 1
-  onComplete: 0
 --- !u!114 &1397646467
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -7181,8 +6810,8 @@ MonoBehaviour:
   autoInitializeRagdoll: 1
   ragdollMass: 80
   stableTimeout: 0.5
-  standFaceDown: {fileID: 74060096437904604, guid: e3a2eebe549364235b59f9dfdc456c61, type: 2}
-  standFaceUp: {fileID: 74323205600563714, guid: e3a2eebe549364235b59f9dfdc456c61, type: 2}
+  standFaceDown: {fileID: 0}
+  standFaceUp: {fileID: 0}
   timeScaleCoefficient: 1
 --- !u!114 &1482018014
 MonoBehaviour:
@@ -7342,59 +6971,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a5fa3ce8148f4c68a1375bd243117a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sheathedHitReactions: {fileID: 0}
-  currentWeapon: {fileID: 0}
-  currentShield: {fileID: 0}
-  previousWeapon: {fileID: 0}
-  previousShield: {fileID: 0}
-  delayPoise:
-    optionIndex: 0
-    value: 1
-    global:
-      allowTypesMask: 4
-      name: 
-    local:
-      allowTypesMask: 4
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-  maxPoise:
-    optionIndex: 0
-    value: 5
-    global:
-      allowTypesMask: 4
-      name: 
-    local:
-      allowTypesMask: 4
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-  poiseRecoveryRate:
-    optionIndex: 0
-    value: 1
-    global:
-      allowTypesMask: 4
-      name: 
-    local:
-      allowTypesMask: 4
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
 --- !u!114 &1482018019
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -7510,49 +7086,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c66432af9c27436c8adc67ae3963b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gid: e82b78b7-d5aa-4db2-bb27-2537c56643e6
-  saveStats: 1
-  statsOverrides:
-  - statUniqueID: e213d04e786449c88ea4826429e900ba
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 877ee1022f3447ee8102227588fc0825
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 00999b45fbad4a74909e036b92f1b89a
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 683752767cda4840ac94be10d7b2f2b7
-    overrideValue: 1
-    baseValue: 200
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 9d9a9bdd05f74dfea00b22b4ac9f2a30
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 1a69c9bc3d1149d89ae4d112ad1494e6
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 179f91b97be84f8489c3f7f02f45e477
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
-  - statUniqueID: 9108e0015f7542759e4224d378b35a20
-    overrideValue: 0
-    baseValue: 0
-    overrideFormula: 0
-    formula: {fileID: 0}
 --- !u!114 &1482018025
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -9473,10 +9006,10 @@ MonoBehaviour:
     target: 0
     gameObject: {fileID: 0}
     global:
-      allowTypesMask: 512
+      allowTypesMask: -1
       name: 
     local:
-      allowTypesMask: 512
+      allowTypesMask: -1
       name: 
       targetType: 2
       targetObject: {fileID: 0}
@@ -9491,7 +9024,7 @@ MonoBehaviour:
   targetOffset: {x: 0, y: 1, z: 0}
   pivotOffset: {x: 0, y: 0, z: 0}
   initialDirection: 0
-  allowOrbitInput: 0
+  allowOrbitInput: 1
   orbitInput: 2
   orbitSpeed: 25
   initialPitch: 30
@@ -9500,10 +9033,10 @@ MonoBehaviour:
     optionIndex: 0
     value: {x: 10, y: 10}
     global:
-      allowTypesMask: 32
+      allowTypesMask: -1
       name: 
     local:
-      allowTypesMask: 32
+      allowTypesMask: -1
       name: 
       targetType: 2
       targetObject: {fileID: 0}
@@ -9512,9 +9045,9 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
-  allowZoom: 0
+  allowZoom: 1
   zoomSpeed: 25
-  initialZoom: 5
+  initialZoom: 3
   zoomSensitivity: 5
   zoomLimits: {x: 1, y: 10}
   avoidWallClip: 1
@@ -9523,8 +9056,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967291
   autoRepositionBehind: 1
-  autoRepositionTimeout: 0.5
-  autoRepositionSpeed: 1
+  autoRepositionTimeout: 1.5
+  autoRepositionSpeed: 2.5
 --- !u!114 &1845560220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10525,10 +10058,10 @@ MonoBehaviour:
     target: 0
     gameObject: {fileID: 0}
     global:
-      allowTypesMask: 512
+      allowTypesMask: -1
       name: 
     local:
-      allowTypesMask: 512
+      allowTypesMask: -1
       name: 
       targetType: 2
       targetObject: {fileID: 0}
@@ -10540,22 +10073,22 @@ MonoBehaviour:
     eventChangeVariable:
       m_PersistentCalls:
         m_Calls: []
-  targetOffset: {x: 0, y: 1.8, z: 0}
+  targetOffset: {x: 0, y: 1, z: 0}
   pivotOffset: {x: 0, y: 0, z: 0}
   initialDirection: 0
-  allowOrbitInput: 0
+  allowOrbitInput: 1
   orbitInput: 2
   orbitSpeed: 25
-  initialPitch: 0
+  initialPitch: 30
   pitchLimits: {x: -10, y: 60}
   sensitivity:
     optionIndex: 0
     value: {x: 10, y: 10}
     global:
-      allowTypesMask: 32
+      allowTypesMask: -1
       name: 
     local:
-      allowTypesMask: 32
+      allowTypesMask: -1
       name: 
       targetType: 2
       targetObject: {fileID: 0}
@@ -10564,19 +10097,19 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
-  allowZoom: 0
+  allowZoom: 1
   zoomSpeed: 25
-  initialZoom: 2.5
+  initialZoom: 3
   zoomSensitivity: 5
   zoomLimits: {x: 1, y: 10}
-  avoidWallClip: 0
+  avoidWallClip: 1
   wallClipRadius: 0.4
   wallClipLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
-  autoRepositionBehind: 0
-  autoRepositionTimeout: 0.5
-  autoRepositionSpeed: 1
+  autoRepositionBehind: 1
+  autoRepositionTimeout: 1.5
+  autoRepositionSpeed: 2.5
 --- !u!4 &2034687704
 Transform:
   m_ObjectHideFlags: 0
@@ -11019,29 +10552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 842a04b05a7094a5ea359d4cb24d968a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  drawPreviousWeapon: 0
-  meleeWeapon: {fileID: 11400000, guid: f57ff536c83622d47b964c93241555b1, type: 2}
-  meleeShield: {fileID: 0}
 --- !u!114 &2139094858
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -11055,7 +10565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 2139094857}
+  - {fileID: 0}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &2139094859

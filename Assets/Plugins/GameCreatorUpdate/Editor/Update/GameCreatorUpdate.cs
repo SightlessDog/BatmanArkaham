@@ -27,25 +27,26 @@
         [InitializeOnLoadMethod]
         static void OnInitializeUpdate()
         {
-            if (!EditorPrefs.GetBool(KEY_AUTO_CHECK_UPDATES, true)) return;
-
-            string strLastCheck = EditorPrefs.GetString(
-                KEY_LAST_CHECK_DATE,
-                DateTime.MinValue.ToString()
-            );
-
-            DateTime lastCheck;
-            if (!DateTime.TryParse(strLastCheck, out lastCheck))
-            {
-                lastCheck = DateTime.MinValue;
-            }
-
-            TimeSpan timeSpan = DateTime.Now - lastCheck;
-            if (timeSpan.TotalDays >= 1 && lastCheck != DateTime.MinValue)
-            {
-                SaveCheckTime();
-                UpdateHttpRequest.Request(GAMECREATOR_BUNDLE, OnRetrieveUpdate);
-            }
+            // Note: Skip automatically checking for updates.
+            // 
+            // if (!EditorPrefs.GetBool(KEY_AUTO_CHECK_UPDATES, true)) return;
+            //
+            // string strLastCheck = EditorPrefs.GetString(
+            //     KEY_LAST_CHECK_DATE,
+            //     DateTime.MinValue.ToString()
+            // );
+            //
+            // if (!DateTime.TryParse(strLastCheck, out DateTime lastCheck))
+            // {
+            //     lastCheck = DateTime.MinValue;
+            // }
+            //
+            // TimeSpan timeSpan = DateTime.Now - lastCheck;
+            // if (timeSpan.TotalDays >= 1 && lastCheck != DateTime.MinValue)
+            // {
+            //     SaveCheckTime();
+            //     UpdateHttpRequest.Request(GAMECREATOR_BUNDLE, OnRetrieveUpdate);
+            // }
         }
 
         // CALLBACK METHODS: ----------------------------------------------------------------------

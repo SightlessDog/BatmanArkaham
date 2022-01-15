@@ -1,7 +1,6 @@
 ﻿namespace GameCreator.Melee
 {
     using System.Collections;
-    using System.Collections.Generic;
     using GameCreator.Core;
     using UnityEngine;
 
@@ -29,7 +28,6 @@
             Stagger,
         }
 
-        public List<BladeComponent.WeaponBone> affectedBones = new List<BladeComponent.WeaponBone>();
         // STATIC & CONSTS: -----------------------------------------------------------------------
 
         private const int HITPAUSE_TIME_LAYER = 80;
@@ -117,7 +115,7 @@
                 this.movementVertical
             );
 
-            this.ExecuteActionsOnStart(melee.transform.position, melee.gameObject);
+            this.ExecuteActionsOnStart(melee.Blade.GetImpactPosition(), melee.gameObject);
         }
 
         public void ExecuteHitPause()

@@ -15,7 +15,7 @@ MonoBehaviour:
   version:
     major: 1
     minor: 1
-    patch: 12
+    patch: 13
   interactiveInstall: 0
   removeDirectories:
   - Plugins/GameCreator/Camera/
